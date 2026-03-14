@@ -5,10 +5,10 @@ import TechStack from "@/components/TechStack";
 
 export default function Home() {
   return (
-    <main className="mx-auto px-6 py-16 space-y-20 max-w-[1300px]">
+    <main className="mx-auto px-4 sm:px-6 py-10 sm:py-16 space-y-16 sm:space-y-20 max-w-[1300px]">
       {/* HERO */}
-      <section className="space-y-6 border border-green-500 p-8 rounded-xl shadow-[0_0_20px_rgba(0,255,0,0.3)]">
-        <h1 className="text-5xl font-bold text-green-400">
+      <section className="space-y-6 border border-green-500 p-5 md:p-5 md:p-8 rounded-xl shadow-[0_0_20px_rgba(0,255,0,0.3)]">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-green-400">
           Suraj Kumar Parida
         </h1>
 
@@ -20,7 +20,7 @@ export default function Home() {
           Building scalable APIs, automation pipelines and backend systems.
         </p>
 
-        <div className="flex gap-4 pt-4">
+        <div className="flex flex-col sm:flex-row gap-3 pt-4">
           <a
             href="https://github.com/surajkp512"
             target="_blank"
@@ -43,7 +43,7 @@ export default function Home() {
 
       {/* ABOUT */}
       <section className="space-y-3">
-        <h2 className="text-2xl font-semibold">About</h2>
+        <h2 className="text-xl sm:text-2xl font-semibold">About</h2>
 
         <p className="text-gray-300 max-w-3xl">
           Backend-focused developer experienced in designing scalable systems
@@ -54,7 +54,7 @@ export default function Home() {
       </section>
 
       {/* EXPERIENCE */}
-      <section className="space-y-3 bg-zinc-900/60 border border-zinc-800 rounded-xl p-8 backdrop-blur">
+      <section className="space-y-3 bg-zinc-900/60 border border-zinc-800 rounded-xl p-5 md:p-5 md:p-8 backdrop-blur">
         <h2 className="text-2xl font-semibold text-zinc-100 tracking-tight">
           Experience
         </h2>
@@ -114,7 +114,7 @@ export default function Home() {
       <TechStack />
 
       {/* CONTACT */}
-      <section className="space-y-3 bg-zinc-900/60 border border-zinc-800 rounded-xl p-8 backdrop-blur">
+      <section className="space-y-3 bg-zinc-900/60 border border-zinc-800 rounded-xl p-5 md:p-5 md:p-5 md:p-8 backdrop-blur">
         <h2 className="text-2xl font-semibold">Contact</h2>
 
         <p className="text-gray-300">Email: dev.surajkp@gmail.com</p>
